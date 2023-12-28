@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+logging:
+  level:
+    org.springframework: debug
+
+spring:
+  message:
+    basename: messages
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
